@@ -1,0 +1,12 @@
+:root {
+  --branding-color: ;
+  --secodary-color: ;
+  --hover-color: ;
+  --heading-font-family: font-family: 'Josefin Sans', sans-serif;
+  --default-font-family: font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+font-family: var(--heading-font-family);
+color: black;
+}
