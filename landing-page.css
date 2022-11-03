@@ -1,19 +1,44 @@
 :root {
-  --branding-color:#52BCEC;
-  --secodary-color: #E68F1B;
-  --hover-color: #F0EDE6;
-  --heading-font-family: font-family: 'Josefin Sans', sans-serif;
-  --default-font-family: font-family: 'Roboto', sans-serif;
+  --branding-color: #52bcec;
+  --secodary-color: #e68f1b;
+  --hover-color: #f0ede6;
+  --heading-font-family: "Josefin Sans", sans-serif;
+  --default-font-family: "Roboto", sans-serif;
 }
 body {
-    background-color: var(--branding-color);
+  background-color: var(--branding-color);
 }
 
-h1,h2,h3,h4,h5,h6 {
-font-family: var(--heading-font-family);
-color: black;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  color: black;
 }
 
 .main-page {
-    background-color: white;
+  background-color: white;
+  border-radius: 10px;
+}
+.navbar {
+  background-color: white;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+main-page {
+  box-shadow: 30px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
 }
