@@ -1,7 +1,7 @@
 :root {
-  --branding-color: ;
-  --secodary-color: ;
-  --hover-color: ;
+  --branding-color:#E7C295;
+  --secodary-color: #264461;
+  --hover-color: #CE8733;
   --heading-font-family: font-family: 'Josefin Sans', sans-serif;
   --default-font-family: font-family: 'Roboto', sans-serif;
 }
