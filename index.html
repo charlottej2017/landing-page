@@ -26,20 +26,38 @@
     <link rel="stylesheet" href="landing-page.css" />
   </head>
   <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between navbar">
-        <img
-          src="images/ocala-logo.png"
-          class="logo"
-          alt="Ocala Florida Logo"
-        />
+    <nav class="d-flex justify-content-center navbar">
+      <div class="container">
+        <a href="index.html">
+          <img
+            src="images/ocala-logo.png"
+            class="logo"
+            alt="Ocala Florida Logo"
+        /></a>
+
         <ul>
-          <li>Home</li>
-          <li>Things to do</li>
-          <li>Blog</li>
+          <li class="active">
+            <a href="index.html" target="_blank" alt="Homepage">Home</a>
+          </li>
+          <li>
+            <a
+              href="https://www.ocalafl.org/our-city/living/city-event-calendar"
+              target="_blank"
+              alt="Things To Do"
+              >Things To Do</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.ocalamarion.com/blog/"
+              target="_blank"
+              alt="Blog"
+              >Blog</a
+            >
+          </li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
 
     <div class="main-page container text-center">
       <h1>Welcome to Ocala, Florida</h1>
@@ -53,6 +71,13 @@
           the gateway to the woods and lakes of the vast Ocala National Forest
           to the east.
         </p>
+        <div class="contatiner">
+          <img
+            src="images/ocala-trees.jpeg"
+            alt="Trees in Ocala"
+            class="img-fluid mb-4"
+          />
+        </div>
       </div>
     </div>
     <script

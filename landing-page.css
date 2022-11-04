@@ -19,6 +19,15 @@ h6 {
   color: black;
 }
 
+h1 {
+  margin-top: 35px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
 .main-page {
   background-color: white;
   border-radius: 10px;
@@ -31,14 +40,37 @@ h6 {
   max-width: 150px;
 }
 
+nav {
+  padding: 20px 0;
+}
 main-page {
   box-shadow: 30px;
 }
 nav li {
   display: inline;
   list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
 }
 nav ul {
   margin: 0;
   padding: 0;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--secodary-color);
+}
+@media (max-width: 800px) {
+  .nav {
+    text-align: center;
+  }
+  .logo {
+    align-items: center;
+  }
 }
