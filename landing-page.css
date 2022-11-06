@@ -20,7 +20,14 @@ h6 {
 }
 
 h1 {
-  margin-top: 35px;
+  margin-top: 50px;
+}
+
+p {
+  font-family: var(--default-font-family);
+}
+li {
+  font-family: var(--default-font-family);
 }
 
 .img-fluid {
@@ -31,9 +38,11 @@ h1 {
 .main-page {
   background-color: white;
   border-radius: 10px;
+  padding-bottom: 4px;
 }
 .navbar {
   background-color: white;
+  position: relative;
 }
 
 .logo {
@@ -62,10 +71,30 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
+footer {
+  margin: 40px 0;
+}
+
 nav a:hover,
 nav li.active a {
   color: var(--secodary-color);
 }
+
+footer .social-links a {
+  margin: 0 20px;
+  color: black;
+  background-color: var(--branding-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--secodary-color);
+  background-color: var(--branding-color);
+}
+
 @media (max-width: 800px) {
   .nav {
     text-align: center;
