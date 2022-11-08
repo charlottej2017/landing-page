@@ -38,6 +38,7 @@ li {
 .main-page {
   background-color: white;
   border-radius: 10px;
+  padding: 10px;
   padding-bottom: 4px;
 }
 .navbar {
@@ -49,12 +50,16 @@ li {
   max-width: 150px;
 }
 
+.footer-hero {
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
 nav {
   padding: 20px 0;
 }
-main-page {
-  box-shadow: 30px;
-}
+
 nav li {
   display: inline;
   list-style: none;
